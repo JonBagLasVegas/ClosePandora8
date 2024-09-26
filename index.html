@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Pandora Experience</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #00008b, #0000ff, #87cefa, #add8e6);
+            background-size: 300% 300%;
+            animation: gradient 10s ease infinite;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .promotions {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Pandora Experience</h1>
+    <p>Explore the wonders of our museum and enjoy a delightful meal at The Pandora Café.</p>
+    <div class="promotions">
+        <p><strong>Tea Time Special:</strong> 20% off on all teas and pastries from 2 PM to 4 PM.</p>
+        <p><strong>Museum Member Discount:</strong> 10% off for museum members.</p>
+        <p><strong>Family Day:</strong> Kids eat free with the purchase of an adult meal on weekends.</p>
+    </div>
+</body>
+</html>
